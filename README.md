@@ -146,6 +146,60 @@ This explanation simplifies hypothesis testing and shows how it helps in real-li
 
 ---
 
+### What is a Probability Distribution?
+
+A **probability distribution** is a mathematical function that describes how probabilities are distributed over the possible outcomes of a random variable. It shows the likelihood of different outcomes in an experiment.
+
+There are two main types of probability distributions:  
+1. **Discrete Probability Distribution**: For variables with distinct, countable outcomes (e.g., rolling a dice).  
+2. **Continuous Probability Distribution**: For variables with an infinite number of possible outcomes within a range (e.g., height or weight).
+
+---
+
+### Types of Probability Distributions and Their Comparison
+
+#### **1. Binomial Distribution**
+   - **Definition**: Deals with the number of successes in a fixed number of independent trials, each with the same probability of success.
+   - **Example**: Tossing a coin 10 times and counting the number of heads.
+   - **Key Parameters**: \(n\) (number of trials), \(p\) (probability of success).
+   - **Type**: Discrete.
+   - **Characteristics**: Symmetric for \(p = 0.5\), skewed otherwise.
+
+#### **2. Poisson Distribution**
+   - **Definition**: Models the number of events occurring within a fixed interval of time or space when events occur independently.
+   - **Example**: Number of emails received per hour.
+   - **Key Parameter**: \(\lambda\) (average rate of occurrence).
+   - **Type**: Discrete.
+   - **Characteristics**: Suitable for rare events.
+
+#### **3. Normal Distribution**
+   - **Definition**: A continuous distribution forming a symmetric, bell-shaped curve, where most values cluster around the mean.
+   - **Example**: Heights of people, test scores.
+   - **Key Parameters**: \(\mu\) (mean), \(\sigma^2\) (variance).
+   - **Type**: Continuous.
+   - **Characteristics**: Defined by the 68-95-99.7 rule (most data falls within 1, 2, or 3 standard deviations of the mean).
+
+---
+
+### Comparison of Key Distributions
+
+| **Distribution**     | **Type**        | **Key Parameters**        | **Example**                               | **Shape**                  |
+|-----------------------|----------------|---------------------------|-------------------------------------------|----------------------------|
+| Binomial             | Discrete       | \(n\), \(p\)              | Coin tosses, defective products           | Symmetric or skewed       |
+| Poisson              | Discrete       | \(\lambda\)               | Emails per hour, accidents per day        | Right-skewed              |
+| Normal               | Continuous     | \(\mu\), \(\sigma^2\)     | Heights, test scores                      | Bell-shaped, symmetric    |
+
+---
+
+### Conclusion
+
+Each probability distribution is suited for specific scenarios and has unique properties. For example:  
+- Use **Binomial** for repeated trials (success/failure).  
+- Use **Poisson** for rare event counts.  
+- Use **Normal** for naturally occurring data like heights.  
+Understanding these distributions helps in selecting the right model for analyzing data effectively.
+
+---
 
 
 ### Q 5 A. Properties of the Sign Test
