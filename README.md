@@ -1,5 +1,79 @@
 # Probability-Statistics
-### What is a Non-Parametric Test?
+### Q 2 A. What is a Hypothesis?
+
+A **hypothesis** is a statement or assumption made about a population parameter (like the mean or proportion) that you want to test using statistical methods. It is essentially an educated guess or prediction that can be verified or disproved using data.
+
+#### Types of Hypotheses:
+1. **Null Hypothesis (\(H_0\))**:
+   - This is the default assumption that there is **no effect** or **no difference**.
+   - Example: "There is no difference in the effectiveness of two medicines."
+
+2. **Alternative Hypothesis (\(H_1\))**:
+   - This is what you want to prove. It states that there **is an effect** or **a difference**.
+   - Example: "Medicine A is more effective than Medicine B."
+
+---
+
+### Methodology for Testing Hypothesis
+
+#### Step 1: State the Hypotheses
+   - Clearly define the \(H_0\) (null hypothesis) and \(H_1\) (alternative hypothesis).
+
+#### Step 2: Choose the Significance Level (\(\alpha\))
+   - The **significance level** is the probability of rejecting \(H_0\) when it is actually true. Common values are:
+     - \(\alpha = 0.05\) (5%)
+     - \(\alpha = 0.01\) (1%)
+
+#### Step 3: Collect Data
+   - Gather data through experiments, surveys, or observations.
+
+#### Step 4: Select the Test
+   - Choose a statistical test based on the data type and hypothesis:
+     - **t-test**: Compare the means of two groups.
+     - **Chi-square test**: Compare frequencies or categorical data.
+     - **ANOVA**: Compare means of three or more groups.
+
+#### Step 5: Calculate the Test Statistic
+   - Use formulas specific to the test to compute a statistic (like \(t\), \(z\), or \(\chi^2\)) that summarizes the data.
+
+#### Step 6: Find the Critical Value or P-Value
+   - Compare your test statistic to a **critical value** from statistical tables or calculate a **p-value**.
+   - If **p-value** < \(\alpha\), reject \(H_0\).
+
+#### Step 7: Make a Decision
+   - **Reject \(H_0\)**: There is enough evidence to support \(H_1\).
+   - **Fail to reject \(H_0\)**: There is not enough evidence to support \(H_1\).
+
+---
+
+### Importance of Hypothesis Testing
+
+1. **Guides Research**: Helps determine what questions to answer.
+2. **Supports Decision Making**: Provides evidence for or against an assumption.
+3. **Validates Results**: Ensures conclusions are based on data, not guesses.
+4. **Predicts Outcomes**: Helps evaluate relationships or effects between variables.
+
+---
+
+### Example in Simple Language
+
+Suppose you want to test if a new teaching method improves students' scores. 
+
+1. \(H_0\): The new teaching method does not improve scores.
+2. \(H_1\): The new teaching method improves scores.
+3. Collect data (test scores of students taught with the new and old methods).
+4. Use a t-test to compare the average scores.
+5. If the p-value is less than 0.05, reject \(H_0\), concluding that the new method improves scores.
+
+---
+
+### Reference Video Links
+- [Hypothesis Testing Explained](https://www.youtube.com/watch?v=5Z9OIYA6k7Y)
+- [Null and Alternative Hypotheses](https://www.youtube.com/watch?v=JQc3yxUeBR8)
+
+This explanation simplifies hypothesis testing and shows how it helps in real-life decision-making.
+
+### Q7 B. What is a Non-Parametric Test?
 
 A non-parametric test is a type of statistical test that does not assume a specific distribution for the data. These tests are used when you cannot assume that the data follows a normal distribution. They are often used with small sample sizes, ordinal data, or non-continuous data.
 
