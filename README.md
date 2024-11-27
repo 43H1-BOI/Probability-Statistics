@@ -47,7 +47,7 @@ These resources should help clarify the concepts and applications of non-paramet
 
 ---
 
-<img src="2A.jpg" width="100" alt="Q2 A">
+<img src="2A.jpg" width="100%" alt="Q2 A">
 
 ### Given Data
 - **Group 1 (Medicine A)**: 43, 39, 49, 62, 42 kg
