@@ -73,6 +73,61 @@ Suppose you want to test if a new teaching method improves students' scores.
 
 This explanation simplifies hypothesis testing and shows how it helps in real-life decision-making.
 
+
+---
+
+
+
+### Properties of the Sign Test
+
+The **Sign Test** is a non-parametric statistical method used to test hypotheses about the median of a population or to compare paired samples. Its key properties are:
+
+---
+
+1. **Non-Parametric Nature**  
+   - The Sign Test does not assume a specific distribution (e.g., normal distribution) for the data.  
+   - It only relies on the signs of the differences (+ or -) rather than their magnitudes.
+
+2. **Tests the Median**  
+   - It is used to test hypotheses about a population **median** or to compare paired samples by checking the number of positive and negative signs in the differences.
+
+3. **Focus on Paired Data**  
+   - It is commonly applied to paired or matched samples, such as before-and-after scenarios or comparing two related datasets.
+
+4. **Robust to Outliers**  
+   - The test is unaffected by extreme values since it only considers whether differences are positive or negative, ignoring their size.
+
+5. **Symmetry Assumption**  
+   - The population distribution is assumed to be symmetric about the median when testing for the population median.
+
+6. **Suitable for Small Samples**  
+   - It is an effective method for small sample sizes where parametric tests may not be appropriate due to lack of normality.
+
+7. **Simple and Easy to Compute**  
+   - The test involves counting the number of positive and negative signs, making it straightforward to perform without complex calculations.
+
+8. **One-Sided and Two-Sided Tests**  
+   - The Sign Test can be used for both:
+     - **One-sided hypothesis tests**: Checks if the median is greater than or less than a given value.
+     - **Two-sided hypothesis tests**: Checks if the median is different from a given value.
+
+9. **Alternative to t-Test**  
+   - It serves as an alternative to the paired t-test when the data does not meet the assumptions of normality or when dealing with ordinal data.
+
+---
+
+### Example:
+Suppose you are testing the effectiveness of a new drug by measuring patient weights **before** and **after** treatment. For each patient:
+   - If weight increased, assign a **+** sign.  
+   - If weight decreased, assign a **-** sign.  
+   - Count the signs to determine if the majority show improvement and test the hypothesis about the treatment's effectiveness.
+
+---
+
+The **Sign Test** is a simple, reliable method for analyzing non-normal data or ordinal data, making it a versatile tool in statistical analysis.
+
+---
+
 ### Q7 B. What is a Non-Parametric Test?
 
 A non-parametric test is a type of statistical test that does not assume a specific distribution for the data. These tests are used when you cannot assume that the data follows a normal distribution. They are often used with small sample sizes, ordinal data, or non-continuous data.
@@ -118,7 +173,7 @@ For a better understanding, you can watch the following videos:
 These resources should help clarify the concepts and applications of non-parametric tests.
 
 
-
+---
 ---
 
 <img src="2A.jpg" width="100%" alt="Q2 A">
