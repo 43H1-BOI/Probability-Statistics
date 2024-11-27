@@ -84,39 +84,39 @@ A **hypothesis** is a statement or assumption made about a population parameter 
 
 ---
 
-### Methodology for Testing Hypothesis
+#### Methodology for Testing Hypothesis
 
-#### Step 1: State the Hypotheses
+##### Step 1: State the Hypotheses
    - Clearly define the \(H_0\) (null hypothesis) and \(H_1\) (alternative hypothesis).
 
-#### Step 2: Choose the Significance Level (\(\alpha\))
+##### Step 2: Choose the Significance Level (\(\alpha\))
    - The **significance level** is the probability of rejecting \(H_0\) when it is actually true. Common values are:
      - \(\alpha = 0.05\) (5%)
      - \(\alpha = 0.01\) (1%)
 
-#### Step 3: Collect Data
+##### Step 3: Collect Data
    - Gather data through experiments, surveys, or observations.
 
-#### Step 4: Select the Test
+##### Step 4: Select the Test
    - Choose a statistical test based on the data type and hypothesis:
      - **t-test**: Compare the means of two groups.
      - **Chi-square test**: Compare frequencies or categorical data.
      - **ANOVA**: Compare means of three or more groups.
 
-#### Step 5: Calculate the Test Statistic
+##### Step 5: Calculate the Test Statistic
    - Use formulas specific to the test to compute a statistic (like \(t\), \(z\), or \(\chi^2\)) that summarizes the data.
 
-#### Step 6: Find the Critical Value or P-Value
+##### Step 6: Find the Critical Value or P-Value
    - Compare your test statistic to a **critical value** from statistical tables or calculate a **p-value**.
    - If **p-value** < \(\alpha\), reject \(H_0\).
 
-#### Step 7: Make a Decision
+##### Step 7: Make a Decision
    - **Reject \(H_0\)**: There is enough evidence to support \(H_1\).
    - **Fail to reject \(H_0\)**: There is not enough evidence to support \(H_1\).
 
 ---
 
-### Importance of Hypothesis Testing
+#### Importance of Hypothesis Testing
 
 1. **Guides Research**: Helps determine what questions to answer.
 2. **Supports Decision Making**: Provides evidence for or against an assumption.
@@ -125,7 +125,7 @@ A **hypothesis** is a statement or assumption made about a population parameter 
 
 ---
 
-### Example in Simple Language
+#### Example in Simple Language
 
 Suppose you want to test if a new teaching method improves students' scores. 
 
@@ -137,7 +137,7 @@ Suppose you want to test if a new teaching method improves students' scores.
 
 ---
 
-### Reference Video Links
+#### Reference Video Links
 - [Hypothesis Testing Explained](https://www.youtube.com/watch?v=5Z9OIYA6k7Y)
 - [Null and Alternative Hypotheses](https://www.youtube.com/watch?v=JQc3yxUeBR8)
 
@@ -186,7 +186,7 @@ The **Sign Test** is a non-parametric statistical method used to test hypotheses
 
 ---
 
-### Example:
+#### Example:
 Suppose you are testing the effectiveness of a new drug by measuring patient weights **before** and **after** treatment. For each patient:
    - If weight increased, assign a **+** sign.  
    - If weight decreased, assign a **-** sign.  
@@ -202,7 +202,7 @@ The **Sign Test** is a simple, reliable method for analyzing non-normal data or 
 
 A non-parametric test is a type of statistical test that does not assume a specific distribution for the data. These tests are used when you cannot assume that the data follows a normal distribution. They are often used with small sample sizes, ordinal data, or non-continuous data.
 
-### Types of Non-Parametric Tests
+#### Types of Non-Parametric Tests
 
 Here are some common types of non-parametric tests:
 
@@ -230,7 +230,7 @@ Here are some common types of non-parametric tests:
    - Compares differences between three or more related groups.
    - Example: Comparing the performance of students in different subjects over time.
 
-### References
+#### References
 
 For a better understanding, you can watch the following videos:
 
