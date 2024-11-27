@@ -56,12 +56,13 @@ These resources should help clarify the concepts and applications of non-paramet
 ### Step-by-Step Process
 
 #### 1. Calculate Means
-\[
+$\[
 \bar{X}_1 = \frac{43 + 39 + 49 + 62 + 42}{5} = 47
-\]
-\[
+\]$
+<br>
+$\[
 \bar{X}_2 = \frac{39 + 41 + 47 + 66 + 48}{5} = 48.2
-\]
+\]$
 
 #### 2. Calculate Variances
 \[
