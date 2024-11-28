@@ -1,5 +1,47 @@
 # Probability-Statistics
 ---
+### Q ? **Point and Interval Estimation:**
+
+1. **Point Estimation:**  
+   A point estimate is a single value used to approximate an unknown population parameter. For example, using the sample mean (\(\bar{x}\)) as an estimate of the population mean (\(\mu\)).
+
+   - **Example:**  
+     Suppose we want to estimate the average height of students in a university. We collect a sample of 50 students, and the sample mean height is \(170\) cm.  
+     - Point estimate for population mean height: \(170\) cm.
+
+2. **Interval Estimation:**  
+   An interval estimate provides a range of values, called a confidence interval, within which the population parameter is expected to lie with a certain level of confidence (e.g., 95%).
+
+   - **Example:**  
+     Using the same data, we calculate a 95% confidence interval for the population mean height.  
+     - Confidence interval: \( (168, 172) \) cm.  
+     This means we are 95% confident that the true average height lies between 168 cm and 172 cm.
+
+---
+
+#### **Characteristics of a Good Estimator:**
+
+1. **Unbiasedness:**  
+   The estimator should not systematically overestimate or underestimate the true parameter.  
+   - **Example:** If you repeatedly estimate the population mean, the average of all these estimates should equal the true mean.
+
+2. **Consistency:**  
+   As the sample size increases, the estimator should converge to the true value of the parameter.  
+   - **Example:** As more students are surveyed, the sample mean should get closer to the population mean.
+
+3. **Efficiency:**  
+   Among all unbiased estimators, the one with the smallest variance is considered the most efficient.  
+   - **Example:** If two estimators have different variances but the same expected value, the one with lower variance is preferred.
+
+4. **Sufficiency:**  
+   A sufficient estimator captures all the information in the sample relevant to the parameter.  
+   - **Example:** The sample mean is sufficient for estimating the population mean in normal distributions.
+
+---
+
+**Summary:**  
+Point estimates give a single best guess for a parameter, while interval estimates provide a range of plausible values. A good estimator is unbiased, consistent, efficient, and sufficient, ensuring it accurately reflects the population characteristics.
+
 ### Q 2 A.
 
 <img src="2A.jpg" width="100%" alt="Q2 A">
