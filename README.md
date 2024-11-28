@@ -42,6 +42,9 @@
 **Summary:**  
 Point estimates give a single best guess for a parameter, while interval estimates provide a range of plausible values. A good estimator is unbiased, consistent, efficient, and sufficient, ensuring it accurately reflects the population characteristics.
 
+
+---
+
 ### Q 2 A.
 
 <img src="2A.jpg" width="100%" alt="Q2 A">
