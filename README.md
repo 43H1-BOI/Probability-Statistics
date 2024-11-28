@@ -20,35 +20,35 @@ $\[
 \]$
 
 ##### 2. Calculate Variances
-\[$
-S_1^2 = \frac{(43-47)^2 + (39-47)^2 + (49-47)^2 + (62-47)^2 + (42-47)^2}{4} = 83.5$
-\]
-\[$
-S_2^2 = \frac{(39-48.2)^2 + (41-48.2)^2 + (47-48.2)^2 + (66-48.2)^2 + (48-48.2)^2}{4} = 114.05$
-\]
+$\[
+S_1^2 = \frac{(43-47)^2 + (39-47)^2 + (49-47)^2 + (62-47)^2 + (42-47)^2}{4} = 83.5
+\]$<br>
+$\[
+S_2^2 = \frac{(39-48.2)^2 + (41-48.2)^2 + (47-48.2)^2 + (66-48.2)^2 + (48-48.2)^2}{4} = 114.05
+\]$
 
 ##### 3. Calculate Standard Deviations
-\[$
-S_1 = \sqrt{83.5} \approx 9.14$
-\]
-\[$
-S_2 = \sqrt{114.05} \approx 10.68$
-\]
+$\[
+S_1 = \sqrt{83.5} \approx 9.14
+\]$<br>
+$\[
+S_2 = \sqrt{114.05} \approx 10.68
+\]$
 
 ##### 4. Calculate Standard Error (SE)
-\[$
-SE = \sqrt{\frac{S_1^2}{n_1} + \frac{S_2^2}{n_2}} = \sqrt{\frac{83.5}{5} + \frac{114.05}{5}} = \sqrt{39.51} \approx 6.29$
-\]
+$\[
+SE = \sqrt{\frac{S_1^2}{n_1} + \frac{S_2^2}{n_2}} = \sqrt{\frac{83.5}{5} + \frac{114.05}{5}} = \sqrt{39.51} \approx 6.29
+\]$
 
 ##### 5. Calculate t-statistic
-\[$
-t = \frac{\bar{X}_1 - \bar{X}_2}{SE} = \frac{47 - 48.2}{6.29} \approx \frac{-1.2}{6.29} \approx -0.19$
-\]
+$\[
+t = \frac{\bar{X}_1 - \bar{X}_2}{SE} = \frac{47 - 48.2}{6.29} \approx \frac{-1.2}{6.29} \approx -0.19
+\]$
 
 ##### 6. Degrees of Freedom
-\[$
-df = n_1 + n_2 - 2 = 5 + 5 - 2 = 8$
-\]
+$\[
+df = n_1 + n_2 - 2 = 5 + 5 - 2 = 8
+\]$
 
 ##### 7. Critical Value
 From the given table, the critical value of t at the 5% significance level for \(df = 8\) is \(2.31\).
